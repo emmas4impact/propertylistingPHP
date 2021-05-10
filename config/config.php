@@ -16,14 +16,14 @@
 	// define('dbname', 'heroku_f59da343fb0a9cc');
 
 	// Connecting database
-	// try {
-	// 	$connect = new PDO("mysql:host=".dbhost."; dbname=".dbname, dbuser, dbpass);
-	// 	$connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-	// }
-	// catch(PDOException $e) {
-	// 	echo $e->getMessage();
-	// }
+	try {
+		$connect = new PDO($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
+		$connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	}
+	catch(PDOException $e) {
+		echo $e->getMessage();
+	}
 	// Connect to DB
-	$connect = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
+	// $connect = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 
 ?>
