@@ -24,6 +24,6 @@
 	// 	echo $e->getMessage();
 	// }
 	// Connect to DB
-	$conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
+	$connect = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 
 ?>
