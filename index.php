@@ -249,12 +249,12 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-facebook"></i>
+                <a href="https://github.com/emmas4impact/propertylistingPHP">
+                  <i class="fa fa-github"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/emmas4impact/">
                   <i class="fa fa-linkedin"></i>
                 </a>
               </li>
