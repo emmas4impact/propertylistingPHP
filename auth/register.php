@@ -46,7 +46,7 @@
 		// }	
 
 			try {
-				$stmt = $conn->prepare('INSERT INTO users (fullname, mobile, username, email, password) VALUES (:fullname, :mobile, :username, :email, :password)');
+				$stmt = $connect->prepare('INSERT INTO users (fullname, mobile, username, email, password) VALUES (:fullname, :mobile, :username, :email, :password)');
 				$stmt->execute(array(
 					':fullname' => $fullname,
 					':username' => $username,
